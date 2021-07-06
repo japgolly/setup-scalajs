@@ -1,0 +1,13 @@
+{
+  "name": "setup-scalajs",
+  "version": "1.0.0",
+  "description": "GitHub Action to prepare the environment for Scala.JS dev and testing",
+  "main": "index.js",
+  "keywords": [],
+  "author": "David Barri (@japgolly)",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "shelljs": "^0.8.4"
+  }
+}
