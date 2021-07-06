@@ -10,7 +10,7 @@ function install() {
 
   // Create namespace
   const prefix = path.join(os.homedir(), "scalajs-npm")
-  shell.set("-eu")
+  shell.set("-e")
   shell.exec(`npm config set prefix ${prefix}`)
 
   // Install global libs
