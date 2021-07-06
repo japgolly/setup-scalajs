@@ -1,0 +1,18 @@
+name: 'setup-scalajs'
+description: 'GitHub Action to prepare the environment for Scala.JS dev and testing'
+author: 'David Barri (@japgolly)'
+
+inputs:
+  jsdom-version:
+    description: 'The jsdom version to install.'
+    required: false
+    default: 'latest'
+
+  source-map-support-version:
+    description: 'The source-map-support version to install.'
+    required: false
+    default: 'latest'
+
+runs:
+  using: 'node12'
+  main: 'index.js'
